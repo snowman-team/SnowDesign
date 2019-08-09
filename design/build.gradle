@@ -61,6 +61,6 @@ publish {
     groupId = GROUP_ID
     artifactId = 'design'
     publishVersion = VERSION
-    desc = 'A butler helps get the application context everywhere and separates the startup process.'
+    desc = 'git remote add origin git@github.com:snowman-team/SnowDesign.git'
     website = GITHUB
 }

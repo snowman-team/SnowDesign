@@ -37,10 +37,8 @@ dependencies {
 - [Design Extensions](./design/src/main/java/com/xueqiu/design/DesignExt.kt)
 
 ## Some screenshots
-![](./docs/image/button.gif =250x)
-![](./docs/image/dialog.gif =250x)
-![](./docs/image/icon.gif =250x)
-![](./docs/image/interpolator.gif =250x)
+
+![Buttom](./docs/image/button.gif) ![Dialog](./docs/image/dialog.gif) ![Icon](./docs/image/icon.gif) ![Interpolator](./docs/image/interpolator.gif)
 
 ## Usage
 
