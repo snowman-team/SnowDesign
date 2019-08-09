@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/common_toolbar" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/layout_flex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="?attr/designPageStartEndPadding"
+        app:flexWrap="wrap">
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_web"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="web view"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_anim"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="anim view"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_dialog"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="dialog"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_button"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="button"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_icon"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="icon"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_font"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Font"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_color"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Color"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_theme"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="theme"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_share"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="share"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_interpolator"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="interpolator"
+            android:textAllCaps="true"
+            app:mode="primary"
+            app:radius="4dp" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</LinearLayout>

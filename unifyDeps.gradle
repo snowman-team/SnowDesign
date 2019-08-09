@@ -1,0 +1,20 @@
+rootProject.ext.compileSdkVersion = 29
+rootProject.ext.minSdkVersion = 21
+rootProject.ext.targetSdkVersion = 29
+rootProject.ext.sourceCompatibility = JavaVersion.VERSION_1_8
+
+rootProject.ext.lego = "0.7.5"
+
+rootProject.ext.deps = [
+        // android
+        androidAppCompat        : "androidx.appcompat:appcompat:1.0.2",
+        androidKTX              : 'androidx.core:core-ktx:1.0.2',
+        androidRecyclerView     : "androidx.recyclerview:recyclerview:1.0.0",
+        androidDesign           : "com.google.android.material:material:1.0.0-rc01",
+        androidFlexbox          : "com.google.android:flexbox:1.1.0",
+
+        toolbox                 : "com.xueqiu.toolbox:toolbox:0.1.0",
+        lottie                  : "com.airbnb.android:lottie:2.8.0",
+        lego                    : "com.github.Hackforid.Lego:lego:$lego",
+        legoCompiler            : "com.github.Hackforid.Lego:lego-compiler:$lego",
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--black grey white-->
+    <color name="design_blk">#000</color>
+    <color name="design_blk_a70">#b2000000</color>
+    <color name="design_blk_a10">#16000000</color>
+    <color name="design_blk_16">#0d1014</color>
+    <color name="design_blk_26">#161a22</color>
+    <color name="design_blk_51">#333333</color>
+    <color name="design_blk_85">#555555</color>
+    <color name="design_blk_93">#585d6a</color>
+    <color name="design_blk_102">#666666</color>
+    <color name="design_blk_121">#747983</color>
+    <color name="design_blk_132">#7d8595</color>
+    <color name="design_blk_136">#888888</color>
+    <color name="design_blk_142">#888f9d</color>
+    <color name="design_blk_159">#9b9faa</color>
+    <color name="design_blk_170">#aaaaaa</color>
+    <color name="design_blk_193">#bdc1ca</color>
+    <color name="design_blk_194">#c2c2c2</color>
+    <color name="design_blk_221">#dddddd</color>
+    <color name="design_blk_232">#e8e8e8</color>
+    <color name="design_blk_240">#edf0f6</color>
+    <color name="design_blk_242">#f2f2f2</color>
+    <color name="design_blk_244">#f4f4f4</color>
+    <color name="design_blk_249">#f9f9f9</color>
+    <color name="design_blk_255">#ffffff</color>
+    <!--blue-->
+    <color name="design_blu_95">#3c64a6</color>
+    <color name="design_blu_97">#1a6edb</color>
+    <color name="design_blu_99">#007ced</color>
+    <color name="design_blu_117">#447bd7</color>
+    <color name="design_blu_118">#3b7eee</color>
+    <color name="design_blu_119">#507cc8</color>
+    <color name="design_blu_123">#3389f1</color>
+    <color name="design_blu_124">#00a6eb</color>
+    <color name="design_blu_128">#4687f9</color>
+    <color name="design_blu_138">#4398ff</color>
+    <color name="design_blu_141">#00c0ff</color>
+    <color name="design_blu_164">#3ec7ff</color>
+    <!--orange-->
+    <color name="design_org_137">#ff6600</color>
+    <color name="design_org_139">#ff5f3b</color>
+    <color name="design_org_147">#ff7700</color>
+    <color name="design_org_153">#ff705c</color>
+    <color name="design_org_161">#ff8c0e</color>
+    <!--yellow-->
+    <color name="design_ylw_176">#f6ad00</color>
+    <color name="design_ylw_180">#ffac12</color>
+    <color name="design_ylw_184">#edbf05</color>
+    <color name="design_ylw_236">#ffedb4</color>
+    <!--golden-->
+    <color name="design_gld_179">#d7ad73</color>
+    <color name="design_gld_183">#ddb26a</color>
+    <color name="design_gld_187">#d6b785</color>
+    <color name="design_gld_206">#efca8b</color>
+    <!--red-->
+    <color name="design_red_101">#fa2529</color>
+    <color name="design_red_106">#f03033</color>
+    <color name="design_red_128">#f74f46</color>
+    <!--green-->
+    <color name="design_grn_106">#09a632</color>
+    <color name="design_grn_108">#07aa31</color>
+    <color name="design_grn_115">#0fa578</color>
+    <color name="design_grn_136">#33bc56</color>
+
+</resources>

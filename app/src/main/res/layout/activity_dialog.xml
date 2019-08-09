@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="?attr/designPageStartEndPadding">
+
+        <com.xueqiu.design.input.TextInputView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Title"
+            app:max_limit="40" />
+
+        <com.xueqiu.design.input.TextInputView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Content"
+            app:max_limit="160" />
+
+        <com.xueqiu.design.input.TextInputView
+            android:id="@+id/tv_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hint="Hint"
+            app:max_limit="10" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                style="@style/DesignSnowball.Text.Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Show icon" />
+
+            <CheckBox
+                android:id="@+id/checkbox_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end" />
+
+        </FrameLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/layout_flex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            app:flexWrap="wrap">
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_alert"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Alert"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_confirm"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Confirm"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_tip"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Tip"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_input"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Input"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_custom"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Custom"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_bottom"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Bottom"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+            <com.xueqiu.design.button.SnowButton
+                android:id="@+id/btn_progress"
+                style="@style/DesignSnowball.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="progress"
+                android:textAllCaps="true"
+                app:mode="holo"
+                app:radius="4dp" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_text_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:backgroundTint="?attr/colorPrimary"
+    app:counterOverflowTextAppearance="@style/DesignSnowball.Counter.Overflow"
+    app:counterTextAppearance="@style/DesignSnowball.Counter.Normal"
+    app:hintTextAppearance="@style/DesignSnowball.TextInputHint">
+
+    <com.xueqiu.design.input.AutoCompleteInput
+        android:id="@+id/edt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/designTextContentColorPrimary"
+        android:textColorHint="?attr/designTextHintColorPrimary"
+        android:textCursorDrawable="@drawable/design_background_cursor"
+        android:theme="@style/DesignSnowball.TextInputLayout"
+        tools:text="place holder" />
+
+</com.google.android.material.textfield.TextInputLayout>

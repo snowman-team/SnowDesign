@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="20dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/design_icon_share_wechat" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/DesignSnowball.Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="@dimen/design_text_size_p7"
+        tools:text="WeChat" />
+
+</LinearLayout>

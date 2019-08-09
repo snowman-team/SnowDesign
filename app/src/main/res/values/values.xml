@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="animations">
+        <item>XueQiu</item>
+        <item>DanJuan</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>primary</item>
+        <item>holo</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>large</item>
+        <item>normal</item>
+        <item>small</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>Sapphire</item>
+        <item>Amber</item>
+    </string-array>
+
+    <string-array name="interpolator">
+        <item>EaseInInterpolator</item>
+        <item>EaseOutInterpolator</item>
+        <item>EaseInOutInterpolator</item>
+        <item>EaseInterpolator</item>
+        <item>ShowCurveGraphInterpolator</item>
+        <item>ShowCurveHighInterpolator</item>
+        <item>ShowCurveLowInterpolator</item>
+    </string-array>
+
+</resources>

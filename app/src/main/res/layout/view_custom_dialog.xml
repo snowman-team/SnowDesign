@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_ylw_176">
+
+    <TextView
+        style="@style/DesignSnowball.Text.Content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="?attr/designPageStartEndPadding"
+        android:gravity="center"
+        android:text="自定义弹窗示意图, 橘色部分是可自定区域" />
+
+</FrameLayout>

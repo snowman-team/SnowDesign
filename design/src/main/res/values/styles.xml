@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DesignSnowball" />
+
+    <style name="DesignSnowball.BottomSheetAnim" parent="Animation.Design.BottomSheetDialog">
+        <item name="android:windowEnterAnimation">@anim/design_bottom_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/design_bottom_slide_out</item>
+    </style>
+
+    <style name="DesignSnowball.BottomSheet" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowAnimationStyle">@style/DesignSnowball.BottomSheetAnim</item>
+    </style>
+
+    <style name="DesignSnowball.BottomSheet.Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DesignSnowball.Button">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textSize">?attr/designTextContentSizeSecondary</item>
+    </style>
+
+    <style name="DesignSnowball.Button.Small">
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textSize">?attr/designTextContentSizeSecondary</item>
+    </style>
+
+    <style name="DesignSnowball.Button.Large">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:textSize">?attr/designTextContentSizePrimary</item>
+    </style>
+
+    <style name="DesignSnowball.DialogNegative" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">?attr/designColorNegative</item>
+    </style>
+
+    <style name="DesignSnowball.DialogWarning" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">?attr/designColorWarning</item>
+    </style>
+
+    <style name="DesignSnowball.DialogPositive" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">?attr/designColorPositive</item>
+    </style>
+
+    <style name="DesignSnowball.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">?attr/designWindowBackgroundColor</item>
+        <item name="android:textColorPrimary">?attr/designTextTitleColorPrimary</item>
+        <item name="android:textColorSecondary">?attr/designTextContentColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Dialog.Confirm">
+        <item name="buttonBarNegativeButtonStyle">@style/DesignSnowball.DialogNegative</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DesignSnowball.DialogPositive</item>
+    </style>
+
+    <style name="DesignSnowball.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/DesignSnowball.DialogWarning</item>
+    </style>
+
+    <style name="DesignSnowball.Dialog.Tip">
+        <item name="buttonBarPositiveButtonStyle">@style/DesignSnowball.DialogPositive</item>
+    </style>
+
+    <style name="DesignSnowball.Dialog.Input">
+        <item name="buttonBarNegativeButtonStyle">@style/DesignSnowball.DialogNegative</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DesignSnowball.DialogPositive</item>
+    </style>
+
+    <style name="DesignSnowball.Dialog.Progress">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DesignSnowball.TextInputHint" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?attr/designTextHintColorPrimary</item>
+        <item name="android:textSize">?attr/designTextHintSizePrimary</item>
+    </style>
+
+    <style name="DesignSnowball.TextInputTip" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?attr/designTextContentColorPrimary</item>
+        <item name="android:textSize">?attr/designTextContentSizePrimary</item>
+    </style>
+
+    <style name="DesignSnowball.TextInputError" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?attr/designTextErrorColorPrimary</item>
+        <item name="android:textSize">?attr/designTextErrorSizePrimary</item>
+    </style>
+
+    <style name="DesignSnowball.TextInputLayout">
+        <item name="colorControlNormal">?attr/colorAccent</item>
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">?attr/colorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Counter.Normal" parent="TextAppearance.Design.Counter">
+        <item name="android:textColor">?attr/designTextHintColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Counter.Overflow" parent="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textColor">?attr/designTextErrorColorPrimary</item>
+        <item name="android:textSize">?attr/designTextErrorSizePrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="toolbarNavigationButtonStyle">@style/DesignSnowball.ToolbarButton</item>
+    </style>
+
+    <style name="DesignSnowball.ToolbarButton" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Text" parent="TextAppearance.AppCompat" />
+
+    <style name="DesignSnowball.Text.Title">
+        <item name="android:textSize">?attr/designTextTitleSizePrimary</item>
+        <item name="android:textColor">?attr/designTextTitleColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Text.Content">
+        <item name="android:textSize">?attr/designTextContentSizePrimary</item>
+        <item name="android:textColor">?attr/designTextContentColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Text.Tip">
+        <item name="android:textSize">?attr/designTextTipSizePrimary</item>
+        <item name="android:textColor">?attr/designTextTipColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Text.Error">
+        <item name="android:textSize">?attr/designTextErrorSizePrimary</item>
+        <item name="android:textColor">?attr/designTextErrorColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.Text.Hint">
+        <item name="android:textSize">?attr/designTextHintSizePrimary</item>
+        <item name="android:textColor">?attr/designTextHintColorPrimary</item>
+    </style>
+
+    <style name="DesignSnowball.ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/design_progressbar</item>
+    </style>
+
+    <style name="DesignSnowball.SeekBar">
+        <item name="android:maxHeight">2dp</item>
+        <item name="android:minHeight">2dp</item>
+        <item name="android:progressDrawable">@drawable/design_seek_bar</item>
+        <item name="android:thumb">@drawable/design_thumb</item>
+    </style>
+
+</resources>

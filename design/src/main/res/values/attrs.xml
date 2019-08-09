@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="SnowEmptyView" tools:ignore="ResourceName">
+        <attr name="text_empty" format="string" />
+        <attr name="text_network" format="string" />
+        <attr name="text_extra" format="string" />
+        <attr name="image_empty" format="reference" />
+        <attr name="image_network" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SnowButton" tools:ignore="ResourceName">
+        <attr name="mode" format="enum">
+            <enum name="custom" value="0" />
+            <enum name="holo" value="1" />
+            <enum name="primary" value="2" />
+        </attr>
+        <attr name="radius" format="dimension" />
+        <attr name="ripper" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SnowViewStub" tools:ignore="ResourceName">
+        <attr name="inflate_layout" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SnowWebView" tools:ignore="ResourceName">
+        <attr name="progress_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="AspectRatioLayout" tools:ignore="ResourceName">
+        <attr name="fixed_aspectRadio" format="float" />
+    </declare-styleable>
+    <declare-styleable name="CircleIndicator" tools:ignore="ResourceName">
+        <attr name="active_color" format="color" />
+        <attr name="inactive_color" format="color" />
+        <attr name="circle_radius" format="dimension" />
+        <attr name="number" format="integer" />
+        <attr name="spacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TextInputView" tools:ignore="ResourceName">
+        <attr name="error_enable" format="boolean" />
+        <attr name="max_lines" format="integer" />
+        <attr name="max_limit" format="integer" />
+        <attr name="hint" format="string" />
+        <attr name="editable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SnowToolbar" tools:ignore="ResourceName">
+        <attr name="center_title" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="designWindowBackgroundColor" format="color" />
+    <attr name="designCardBackgroundColor" format="color" />
+
+    <attr name="designTextTitleSizePrimary" format="dimension" />
+    <attr name="designTextTitleSizeSecondary" format="dimension" />
+    <attr name="designTextTitleSizeTertiary" format="dimension" />
+    <attr name="designTextTitleColorPrimary" format="color" />
+
+    <attr name="designTextTipSizePrimary" format="dimension" />
+    <attr name="designTextTipSizeSecondary" format="dimension" />
+    <attr name="designTextTipColorPrimary" format="color" />
+
+    <attr name="designTextHintSizePrimary" format="dimension" />
+    <attr name="designTextHintColorPrimary" format="color" />
+
+    <attr name="designTextErrorSizePrimary" format="dimension" />
+    <attr name="designTextErrorColorPrimary" format="color" />
+
+    <attr name="designTextContentSizePrimary" format="dimension" />
+    <attr name="designTextContentSizeSecondary" format="dimension" />
+    <attr name="designTextContentSizeTertiary" format="dimension" />
+    <attr name="designTextContentColorPrimary" format="color" />
+
+    <attr name="designTextToastSize" format="dimension" />
+    <attr name="designTextToastColor" format="color" />
+    <attr name="designBackgroundToast" format="color" />
+
+    <attr name="designDividerColor" format="color" />
+
+    <attr name="designPageStartEndPadding" format="dimension" />
+    <attr name="designPageTopBottomPadding" format="dimension" />
+
+    <attr name="designColorPositive" format="color" />
+    <attr name="designColorWarning" format="color" />
+    <attr name="designColorNegative" format="color" />
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_text_size_h2">20sp</dimen>
+    <dimen name="design_text_size_h3">18sp</dimen>
+    <dimen name="design_text_size_h4">16sp</dimen>
+    <dimen name="design_text_size_h5">14sp</dimen>
+    <dimen name="design_text_size_h6">12sp</dimen>
+    <dimen name="design_text_size_p2">20sp</dimen>
+    <dimen name="design_text_size_p3">18sp</dimen>
+    <dimen name="design_text_size_p4">16sp</dimen>
+    <dimen name="design_text_size_p5">14sp</dimen>
+    <dimen name="design_text_size_p6">13sp</dimen>
+    <dimen name="design_text_size_p7">12sp</dimen>
+</resources>

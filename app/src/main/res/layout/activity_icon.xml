@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="?attr/designPageStartEndPadding">
+
+        <com.xueqiu.design.button.SnowButton
+            android:id="@+id/btn_prev"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:text="prev"
+            android:textAllCaps="true"
+            app:mode="primary" />
+
+        <com.xueqiu.design.button.SnowButton
+
+            android:id="@+id/btn_next"
+            style="@style/DesignSnowball.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="next"
+            android:textAllCaps="true"
+            app:mode="primary" />
+
+
+    </FrameLayout>
+
+    <SeekBar
+        android:id="@+id/seek_size"
+        style="@style/DesignSnowball.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="90"
+        android:progress="40" />
+
+    <com.xueqiu.design.input.TextInputView
+        android:id="@+id/tv_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="?attr/designPageStartEndPadding"
+        app:hint="Color"
+        app:max_limit="9" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/DesignSnowball.Text.Tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:text="place holder" />
+
+
+</LinearLayout>

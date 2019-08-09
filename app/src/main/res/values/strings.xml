@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SnowDesign</string>
+
+    <string name="text_wechat">微信</string>
+    <string name="text_moments">朋友圈</string>
+    <string name="text_weibo">微博</string>
+    <string name="text_qq">QQ</string>
+    <string name="text_xueqiu">雪球动态</string>
+    <string name="text_xueqiu_im">雪球聊天</string>
+    <string name="text_facebook">脸书</string>
+    <string name="text_whatsapp">Whatsapp</string>
+    <string name="text_ins">Instagram</string>
+    <string name="text_twitter">推特</string>
+    <string name="text_messenger">飞书</string>
+    <string name="text_message">短信</string>
+    <string name="text_email">邮件</string>
+    <string name="text_copy_link">链接</string>
+    <string name="text_more">更多</string>
+    
+</resources>
