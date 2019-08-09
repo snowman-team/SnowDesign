@@ -15,7 +15,6 @@ dependencies {
     // add dependency, please replace x.y.z to the latest version
     implementation "com.xueqiu.design:design:x.y.z"
     // if you use ShareKit component
-    implementation ('com.github.Hackforid.Lego:lego:0.7.5')
     kapt ('com.github.Hackforid.Lego:lego-compiler:0.7.5')
 }
 ```
@@ -48,3 +47,9 @@ dependencies {
 Make your AppTheme style extends DesignTheme, then you can use the components. For more details, please read the example.
 
 The ShareKit use [LegoAdapter](https://github.com/Hackforid/Lego) and the SnowAnimView use [Lottie](https://github.com/airbnb/lottie-android), please read their documentation before using theme.
+
+## Proguard
+```
+If you use lego adapter
+-keepnames class com.smilehacker.lego.factory.*
+```
