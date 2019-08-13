@@ -27,13 +27,12 @@ dependencies {
 - [Theme](./design/src/main/res/values/themes.xml)
 - [Anim](./design/src/main/res/anim)
 - UI Components
-  - Dialog
-  - AspectLayout
-  - WebView
-  - Button
-  - ShareKit
-  - Interpolator
-  - LottieAnim
+  - [Dialog](./app/src/main/java/com/xueqiu/design/app/DialogActivity.kt)
+  - [WebView](./app/src/main/java/com/xueqiu/design/app/WebActivity.kt)
+  - [Button](./app/src/main/java/com/xueqiu/design/app/ButtonActivity.kt)
+  - [ShareKit](./app/src/main/java/com/xueqiu/design/app/ShareActivity.kt)
+  - [Interpolator](./app/src/main/java/com/xueqiu/design/app/InterpolatorActivity.kt)
+  - [LottieAnim](./app/src/main/java/com/xueqiu/design/app/AnimActivity.kt)
 - [Design Extensions](./design/src/main/java/com/xueqiu/design/DesignExt.kt)
 
 ## Some screenshots

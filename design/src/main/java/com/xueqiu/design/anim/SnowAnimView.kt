@@ -9,6 +9,7 @@ import android.widget.FrameLayout
 import androidx.annotation.IntDef
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
+import com.airbnb.lottie.RenderMode
 
 class SnowAnimView : FrameLayout {
 
@@ -71,6 +72,7 @@ class SnowAnimView : FrameLayout {
 
         mAnimView = LottieAnimationView(context)
         mAnimView.layoutParams = ViewGroup.LayoutParams(context, attrs)
+        mAnimView.setRenderMode(RenderMode.SOFTWARE)
         addView(mAnimView)
 
         mAnimView.addAnimatorListener(object : Animator.AnimatorListener {
