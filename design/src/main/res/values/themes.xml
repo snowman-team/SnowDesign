@@ -6,7 +6,6 @@
         <item name="colorPrimaryDark">@color/design_blu_119</item>
         <item name="colorAccent">?attr/colorPrimary</item>
         <item name="android:windowBackground">?attr/designWindowBackgroundColor</item>
-        <item name="android:statusBarColor">?attr/designWindowBackgroundColor</item>
 
         <item name="designWindowBackgroundColor">@color/design_blk_240</item>
         <item name="designCardBackgroundColor">@color/design_blk_255</item>
