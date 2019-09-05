@@ -52,11 +52,11 @@ fun Context.getColorInt(@ColorRes colorRes: Int): Int {
     }
 }
 
+@ColorInt
 fun Context.getAttrColor(attrId: Int): Int {
     val typedValue = TypedValue()
     theme.resolveAttribute(attrId, typedValue, true)
-    val colorRes = typedValue.resourceId
-    return getColorInt(colorRes)
+    return typedValue.data
 }
 
 fun Context.getSelectRipperDrawable(): Drawable? {
