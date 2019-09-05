@@ -21,9 +21,9 @@ class SnowToolbar : Toolbar {
     constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr) {
 
         context.theme.obtainStyledAttributes(
-            attrs,
-            R.styleable.SnowToolbar,
-            0, R.style.DesignTheme
+                attrs,
+                R.styleable.SnowToolbar,
+                0, R.style.DesignTheme
         ).apply {
             try {
                 mIsCenterTitle = getBoolean(R.styleable.SnowToolbar_center_title, true)
@@ -45,8 +45,8 @@ class SnowToolbar : Toolbar {
     }
 
     fun setNavIcon(
-        @DrawableRes iconRes: Int,
-        @ColorInt color: Int = context.getAttrColor(R.attr.colorPrimary)
+            @DrawableRes iconRes: Int,
+            @ColorInt color: Int = context.getAttrColor(android.R.attr.colorPrimary)
     ) {
         val icon = context.getDrawable(iconRes)
         icon?.setColorFilter(color)

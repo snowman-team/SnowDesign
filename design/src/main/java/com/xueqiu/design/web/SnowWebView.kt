@@ -92,7 +92,7 @@ class SnowWebView : FrameLayout {
             try {
                 progressColor = getColor(
                     R.styleable.SnowWebView_progress_color,
-                    context.getAttrColor(R.attr.colorPrimary)
+                    context.getAttrColor(android.R.attr.colorPrimary)
                 )
             } finally {
                 recycle()

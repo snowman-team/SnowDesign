@@ -39,7 +39,7 @@ class SnowInputDialog private constructor(val context: Context?, val builder: Bu
         mProgress = view.findViewById(R.id.progress)
         dialog.setView(view)
 
-        mProgress?.indeterminateDrawable?.setColorFilter(context.getAttrColor(R.attr.colorPrimary))
+        mProgress?.indeterminateDrawable?.setColorFilter(context.getAttrColor(android.R.attr.colorPrimary))
         mProgress?.hide()
         mInputView?.isErrorEnable = true
         mInputView?.isEditable = true
