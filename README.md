@@ -1,4 +1,4 @@
-Snowball Android Design Library <br> [ ![Download](https://api.bintray.com/packages/aquarids/maven/design/images/download.svg?version=0.1.1) ](https://bintray.com/aquarids/maven/design/0.1.1/link)
+Snowball Android Design Library <br> [ ![Download](https://api.bintray.com/packages/aquarids/maven/design/images/download.svg?version=0.1.2) ](https://bintray.com/aquarids/maven/design/0.1.2/link)
 ============
 
 Some ui components that helps you build applications.
