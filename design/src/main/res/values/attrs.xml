@@ -38,6 +38,7 @@
         <attr name="max_limit" format="integer" />
         <attr name="hint" format="string" />
         <attr name="editable" format="boolean" />
+        <attr name="input_text" format="string" />
     </declare-styleable>
     <declare-styleable name="SnowToolbar" tools:ignore="ResourceName">
         <attr name="center_title" format="boolean" />

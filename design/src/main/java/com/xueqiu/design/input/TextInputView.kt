@@ -11,7 +11,6 @@ import com.google.android.material.textfield.TextInputLayout
 import com.xueqiu.design.R
 import com.xueqiu.design.inflate
 
-
 class TextInputView : LinearLayout {
 
     private var mTextInput: TextInputLayout
@@ -27,9 +26,9 @@ class TextInputView : LinearLayout {
         mEdtInput = view.findViewById(R.id.edt_input) as AutoCompleteInput
 
         context.theme.obtainStyledAttributes(
-            attrs,
-            R.styleable.TextInputView,
-            0, R.style.DesignTheme
+                attrs,
+                R.styleable.TextInputView,
+                0, R.style.DesignTheme
         ).apply {
             try {
                 isErrorEnable = getBoolean(R.styleable.TextInputView_error_enable, true)
@@ -37,6 +36,7 @@ class TextInputView : LinearLayout {
                 maxLimit = getInt(R.styleable.TextInputView_max_limit, 0)
                 hint = getString(R.styleable.TextInputView_hint)
                 isEditable = getBoolean(R.styleable.TextInputView_editable, true)
+                text = getString(R.styleable.TextInputView_input_text) ?: ""
             } finally {
                 recycle()
             }
